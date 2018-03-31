@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poem"
+            android:layout_toRightOf="@+id/image"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/text_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_one"
+            android:layout_toEndOf="@+id/image"
+            android:text="Edger Alan"
+
+
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textBest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_below="@+id/textBest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+
+
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+
+            android:id="@+id/text_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/text_two"
+            android:textSize="12sp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/book3" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

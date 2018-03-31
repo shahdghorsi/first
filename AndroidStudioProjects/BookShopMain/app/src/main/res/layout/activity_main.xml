@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.recodedharran.bookshopmain.MainActivity"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:id="@+id/themeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FBC02D">
+
+        <TextView
+            android:id="@+id/my_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Book Shop"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:background="#20f0f0f0"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/booki"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+
+        <EditText
+
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:id="@+id/gmail"
+            android:layout_width="270dp"
+            android:hint="E-mail"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="270dp"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_marginTop="20dp"
+            android:text="Accept EULA"
+            android:textSize="18dp"
+            android:textColor="#424242"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="login"
+            android:textColor="#ffffff"
+            android:background="#FBC02D"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

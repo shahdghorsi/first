@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/themeApp"
+    tools:context="com.example.recodedharran.bookshopmain.FirstBook">
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/themeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="10dp"
+        android:background="#FBC02D">
+
+        <TextView
+
+            android:id="@+id/my_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Book Shop"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/turn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:src="@drawable/delete" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <ImageView
+        android:layout_below="@+id/themeLayout"
+        android:id="@+id/booki"
+        android:layout_width="80dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        android:src="@drawable/balzac" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@+id/themeLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/booki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Making Things Happen"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/booki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adam Walker"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/booki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200"/>
+
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/booki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        android:text="15$"/>
+
+    <RatingBar
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/text3"
+        android:layout_toRightOf="@id/price"
+        android:layout_width="190dp"
+        android:layout_height="40dp" />
+
+    <TextView
+
+        android:layout_below="@+id/price"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+       android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@+id/booki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Mutlak Peşinde, bilime merak salmış bir adamın ve ailesinin dramatik öyküsünü konu alıyor. Biraz felsefe birazda dramın harmanlandığı bir aile trajedisi. Kitabın konusu ve karakterlerini çok sevdim, yazar nokta atışı seçimler yapmış ancak ben sunumu çok beğenemedim ne yazık ki. Balzac'ın uzun betimlemelerinden sıkça söz edilir, diğer kitaplarında bu betimlemeler beni rahatsız etmese de bu kitapta sıkıcı bulduğumu itiraf etmeliyim. Kitap genel anlamda güzel olsa da olması gerekenden uzunmuş gibi geldi bana, roman zaten kalın değil, 210 sayfa, ancak konuya ve hikayenin gidişatına fazla gibi geldi bana. Yarısı kadar olsaydı sanki tadı damakta kalacak daha fazlasını isteyecek ama yerinde sayfa sayısı içinde sevinecekmişiz gibi hissettim." />
+
+
+</RelativeLayout>
+    </ScrollView>
